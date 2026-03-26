@@ -13,4 +13,5 @@ Refatoração de um site implementando recursos de acessibilidade no html, css e
 - CSS
 - JS
 ## LINK Direto
-- https://augustovp-dev.github.io/Cyberpunk-Games/
+- [https://augustovp-dev.github.io/Cyberpunk-Games/
+](https://augustovp-dev.github.io/CyberpunkGames/)
