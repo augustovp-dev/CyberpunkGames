@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0d001f;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+header h1 {
+  color: #ff00ff;
+  margin: 40px 0;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.intro {
+  max-width: 200px;
+  margin: 30px auto;
+  background: rgba(255, 0, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+}
+.intro h2 {
+  color: #00ffff;
+  margin-bottom: 10px;
+}
+.intro button {
+  margin-top: 15px;
+  background: #00ffff;
+  border: none;
+  padding: 10px 20px;
+  color: #0d001f;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.intro button:hover {
+  background: #ff00ff;
+  color: #fff;
+}
+
+.galeria {
+  margin: 40px auto;
+  padding: 20px;
+}
+.galeria h2 {
+  color: #ffff00;
+  margin-bottom: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.game-card {
+  width: 100%;
+  aspect-ratio: 1 / 1; 
+  object-fit: scale-down; 
+  border-radius: 12px;
+  box-shadow: 0 0 15px #ff00ff;
+  transition: transform 0.3s;
+}
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.contato {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(255, 0, 255, 0.15);
+  border-radius: 12px;
+}
+.contato h2 {
+  color: #ff00ff;
+  margin-bottom: 15px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+button[type="submit"] {
+  background: #00ffff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background: #ff00ff;
+  color: #fff;
+}
+
+.nav-img {
+  height: 60px;
+  width: auto;
+}
+
+.cyber-logo {
+  max-width: 50px;
+  height: auto;
+  object-fit: contain;
+}
+
+.img-inicio {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  object-fit: contain; 
+}
+
+.secao-sobre img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.fundo-galeria img {
+  width: 100%;
+  aspect-ratio: 1/1; 
+  object-fit: scale-down;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.fundo-galeria img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff00ff;
+}
